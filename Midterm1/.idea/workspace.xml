@@ -19,13 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d6e51d-a9fd-44f4-b603-782d96e433c3" name="Default Changelist" comment="" />
+    <list default="true" id="82d6e51d-a9fd-44f4-b603-782d96e433c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Notifications/EmployeeHired.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_12_22_195847_create_notifications_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmpController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmpController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employee/employee_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employee/employee_list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -151,11 +165,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Requests" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views/layout" />
     </key>
@@ -174,7 +192,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603724877248</updated>
-      <workItem from="1603724878400" duration="6283000" />
+      <workItem from="1603724878400" duration="6595000" />
+      <workItem from="1606679154521" duration="31000" />
+      <workItem from="1608658550078" duration="10297000" />
     </task>
     <servers />
   </component>
@@ -191,19 +211,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="280" width="528" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603727053030">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="693" y="280" width="528" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1043@0.0.1920.1043" timestamp="1603727053030" />
+    <state x="743" y="280" width="428" height="484" key="FileChooserDialogImpl" timestamp="1608659425396">
+      <screen x="0" y="0" width="1920" height="1043" />
+    </state>
+    <state x="743" y="280" width="428" height="484" key="FileChooserDialogImpl/0.0.1920.1043@0.0.1920.1043" timestamp="1608659425396" />
     <state x="715" y="243" width="483" height="558" key="NewPhpClassDialog" timestamp="1603729479368">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
     <state x="715" y="243" width="483" height="558" key="NewPhpClassDialog/0.0.1920.1043@0.0.1920.1043" timestamp="1603729479368" />
-    <state x="664" y="261" width="953" height="690" key="find.popup" timestamp="1603727011522">
+    <state x="664" y="261" width="953" height="690" key="find.popup" timestamp="1608659520535">
       <screen x="0" y="0" width="1920" height="1043" />
     </state>
-    <state x="664" y="261" width="953" height="690" key="find.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1603727011522" />
+    <state x="664" y="261" width="953" height="690" key="find.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1608659520535" />
+    <state x="622" y="238" key="run.anything.popup" timestamp="1608667935862">
+      <screen x="0" y="0" width="1920" height="1043" />
+    </state>
+    <state x="622" y="238" key="run.anything.popup/0.0.1920.1043@0.0.1920.1043" timestamp="1608667935862" />
   </component>
 </project>
